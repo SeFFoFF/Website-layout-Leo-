@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6{
 
 .header__logo{
     font-size: 80px;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
 }
 
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 20px;
 }
 
-.btn_outro{
+.btn_outro_logMeIn{
     display: inline-block;
     vertical-align: top;
     border: 1px solid #4f4f4f;
@@ -269,10 +269,31 @@ h1, h2, h3, h4, h5, h6{
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+    margin-left: 5px;
+    margin-top: 8px;
 }
 
+.btn_outro_subscribe{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #029bb1;
+    background: #029bb1;
+    color: #ffffff;
+    padding: 3px 9px;
+    width: 95px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 8px;
+}
 
-/* Outro login */
+/* Outro login & Subscribe*/
+.outro{
+    padding-bottom: 35px;
+}
+
 .outro .container{
     display: flex;
 }
@@ -281,7 +302,7 @@ h1, h2, h3, h4, h5, h6{
     width: 470px;
     height: 110px;
     background-color: #e67624;
-    border-radius: 0;
+    border-radius: 7px;
 }
 
 .outro__subscribe{
@@ -290,13 +311,101 @@ h1, h2, h3, h4, h5, h6{
     background-color: #01d4f3;
     border-radius: 0;
     margin-left: 90px;
+    border-radius: 7px;
 }
 
 .outro h1{
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 400;
     color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
 }
+
+.outro__textUser{
+    width: 156px;
+    height: 26px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+}
+
+.outro__textPass{
+    width: 156px;
+    height: 26px;
+    margin-left: 7px;
+    margin-top: 10px;
+    border: none;
+}
+
+.outro__textEmail{
+    width: 256px;
+    height: 26px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 25vh;
+    background: url("../images/footer.jpg") center no-repeat;
+    background-size: cover;
+}
+.footer__aboutUs{
+    padding-top: 25px;
+    display: flex;
+    justify-content: left;
+}
+
+.footer__tab{
+    display: flex;
+    align-items: left;
+    align-content: center;
+    flex-direction: column;
+    width: 170px;
+    height: 170px;
+}
+
+.footer__lastTab{
+    display: flex;
+    align-items: left;
+    align-content: center;
+    flex-direction: column;
+    width: 360px;
+    height: 150px;
+}
+
+.footer__logo{
+    font-size: 100px;
+    font-weight: 400;
+    color: #6e6f6d;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #9e9f9e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer h1{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.footer p{
+    font-size: 14px;
+    color: #acacac;
+    margin: 0;
+    font-weight: 400;
+}
+
 
 /* Ul & Li*/
 ul{
