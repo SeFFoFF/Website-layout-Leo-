@@ -1,4 +1,4 @@
-# :computer: Website layout "Leo/-"
+# :computer: Website layout "Leo/-" (HTML5 + CSS3)
  https://seffoff.github.io/Website-layout-Leo-/
 P.S. only for monitors 1920x1080
 
